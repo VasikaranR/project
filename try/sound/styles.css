@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+    background-color: #39AEA9;
+    margin-top: 200px;
+    font-family: 'Palette Mosaic', sans-serif;
+    font-size: 1rem;
+    border-color: black;
+}
+.sound{
+    background-color: #A2D5AB;
+    position: relative;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 100px;
+    border-radius: 1000px;
+    border-color: black;
+    background-image: url(music.png);
+    font-family: 'Palette Mosaic', sans-serif;
+    
+    
+}
+ 
+
+@keyframes demo{
+    from {
+        background-color:yellowgreen;
+    }
+    to {
+        background-color:orange;
+    }
+} 
+
+.drum{
+    
+    border-radius: 12px;
+    padding: 2%;
+    font-family: 'Oswald', sans-seri;
+    background-color:orange;
+    animation: demo;
+    animation-duration: 5s;
+    transition: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
